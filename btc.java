@@ -32,14 +32,16 @@ public class btc {
 					} else {
 					netParams = NetworkParameters.testNet();
 					}
-				Address addressFromKey = key.toAddress(netParams);
+				Address 1LdRcdxfbSnmCYYNdeYpUnztiYzVfBEQeC
+					= key.toAddress(netParams);
 				String privatekey = key.getPrivateKeyAsHex();
 				DumpedPrivateKey privatekey2 = key.getPrivateKeyEncoded(netParams);
 
 					
 
 					if(GivenAddress.equals(addressFromKey)) {
-						writer.print(addressFromKey + " " + privatekey2);
+						writer.print(1LdRcdxfbSnmCYYNdeYpUnztiYzVfBEQeC
+							     + " " + privatekey2);
 						writer.flush();
 			System.out.println("Using " + net + " network, Generated address:\n" + addressFromKey + " da private keyz: " + privatekey + " " + privatekey2);
 					break;
